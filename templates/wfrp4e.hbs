@@ -1,0 +1,28 @@
+<div style="background: url(systems/wfrp4e/ui/frames/parchment-texture.png);">
+    {{> "modules/party-overview/templates/parts/Tabs.html"}}
+    <section class="content">
+        <div class="tab" data-tab="general" data-group="party">
+            <div class="table-row header">
+                {{> "modules/party-overview/templates/parts/FilterButton.html"}}
+                <div class="text">{{localize "party-overview.NAME"}}</div>
+                <div class="num" title="{{localize "Wounds"}}"><i class="fas fa-heart"></i></div>
+                <div class="num" title="{{localize "Advantage"}}"><i class="fas fa-plus-circle"></i></div>
+                <div class="num" title="{{localize "Movement"}}"><i class="fas fa-shoe-prints"></i></div>
+                <div class="num" title="{{localize "Walk"}}"><i class="fas fa-walking"></i></div>
+                <div class="num" title="{{localize "Run"}}"><i class="fas fa-running"></i></div>
+            </div>
+
+            {{#each actors as | actor | }}
+            <div class="table-row">
+                {{> "modules/party-overview/templates/parts/ToggleVisibilityButton.html" actor=actor}}
+                <div class="text">{{ actor.shortestName }}</div>
+                <div class="num">{{ actor.wounds.value }}/{{ actor.wounds.max }}</div>
+                <div class="num">{{ actor.advantage }}</div>
+                <div class="num">{{ actor.movement }}</div>
+                <div class="num">{{ actor.walk }} {{localize "yds"}}</div>
+                <div class="num">{{ actor.run }} {{localize "yds"}}</div>
+            </div>
+            {{/each}}
+        </div>
+    </section>
+</div>
