@@ -5,7 +5,7 @@
 	"description": "Provides an instant overview about vital stats of the players active in the current scene",
 	"version": "1.0.0",
 	"minimumCoreVersion": "9",
-	"compatibleCoreVersion": "9.269",
+	"compatibleCoreVersion": "9",
 	"languages": [
 		{
 			"lang": "en",
@@ -57,9 +57,5 @@
 			"name": "Chris Wachal",
 			"discord": "Zamrod#9326"
 		}
-	],
-	"compatibility": {
-		"minimum": "0.8.9",
-		"verified": "9.269"
-	}
+	]
 }
