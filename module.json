@@ -5,7 +5,7 @@
 	"description": "Provides an instant overview about vital stats of the players active in the current scene",
 	"version": "1.0.0",
 	"minimumCoreVersion": "9",
-	"compatibleCoreVersion": "9.238",
+	"compatibleCoreVersion": "9.269",
 	"languages": [
 		{
 			"lang": "en",
@@ -60,6 +60,6 @@
 	],
 	"compatibility": {
 		"minimum": "0.8.9",
-		"verified": "10.273"
+		"verified": "9.269"
 	}
 }
