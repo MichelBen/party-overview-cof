@@ -40,10 +40,10 @@
 	],
 	"esmodules": ["party-overview.js"],
 	"styles": ["style/party-overview.css"],
-	"url"     : "https://github.com/MichelBen/party-overview-cof",
-	"bugs"    : "https://github.com/MichelBen/party-overview-cof/issues",
-	"manifest": "https://github.com/MichelBen/party-overview-cof/releases/latest/download/v1.0.0/module.json",
-	"download": "https://github.com/MichelBen/party-overview-cof/releases/latest/download/v1.0.0/module.zip",
+	"url": "https://github.com/MichelBen/party-overview-cof",
+	"bugs": "https://github.com/MichelBen/party-overview-cof/issues",
+	"manifest": "https://github.com/MichelBen/party-overview-cof/releases/latest/download/module.json",
+	"download": "https://github.com/MichelBen/party-overview-cof/releases/latest/download/module.zip",
 	"authors": [
 		{
 			"name": "Matheus Clemente",
