@@ -25,3 +25,10 @@ Using filters, you can hide and show players to your hearts desire, to quickly g
 Temporary copy from https://github.com/mclemente/party-overview
 
 mclemente/party-overview is a fork of [Party Overview](https://github.com/League-of-Foundry-Developers/party-overview), which is a fork of [vtta-party](https://github.com/VTTAssets/vtta-party), both licensed under MIT license.
+
+# Release and module.json
+
+Last release : https://github.com/MichelBen/party-overview-cof/releases/latest/download/module.json
+
+v1.0.0 : https://github.com/MichelBen/party-overview-cof/releases/download/v1.0.0/module.json
+
