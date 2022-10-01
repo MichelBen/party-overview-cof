@@ -1,9 +1,9 @@
 {
-	"id": "party-overview-cof",
-	"name": "party-overview-cof",
-	"title": "Party Overview COF",
+	"id": "party-overview",
+	"name": "party-overview",
+	"title": "Party Overview for FVTT V9 with COF",
 	"description": "Provides an instant overview about vital stats of the players active in the current scene",
-	"version": "1.0.0",
+	"version": "2.0.0",
 	"minimumCoreVersion": "9",
 	"compatibleCoreVersion": "9",
 	"languages": [
@@ -44,10 +44,7 @@
 	"styles": [
 		"style/party-overview.css"
 	],
-	"url": "https://github.com/MichelBen/party-overview-cof",
-	"bugs": "https://github.com/MichelBen/party-overview-cof/issues",
-	"manifest": "https://github.com/MichelBen/party-overview-cof/releases/download/v1.0.0/module.json",
-	"download": "https://github.com/MichelBen/party-overview-cof/releases/download/v1.0.0/module.zip",
+
 	"authors": [
 		{
 			"name": "Matheus Clemente",
@@ -61,5 +58,9 @@
 			"name": "Chris Wachal",
 			"discord": "Zamrod#9326"
 		}
-	]
+	],
+	"url": "https://github.com/MichelBen/party-overview-cof",
+	"bugs": "https://github.com/MichelBen/party-overview-cof/issues",
+	"manifest": "https://github.com/MichelBen/party-overview-cof/releases/download/v2.0.0/module.json",
+	"download": "https://github.com/MichelBen/party-overview-cof/releases/download/v2.0.0/module.zip"
 }
