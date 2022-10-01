@@ -30,5 +30,8 @@ mclemente/party-overview is a fork of [Party Overview](https://github.com/League
 
 Last release : https://github.com/MichelBen/party-overview-cof/releases/latest/download/module.json
 
-v1.0.0 : https://github.com/MichelBen/party-overview-cof/releases/download/v1.0.0/module.json
+v2.0.0 : https://github.com/MichelBen/party-overview-cof/releases/download/v1.0.0/module.json
+  change module name from "party-overview-cof" to "party-overview" because this name is hardcoded.
 
+v1.0.0 : https://github.com/MichelBen/party-overview-cof/releases/download/v1.0.0/module.json
+  initial commit
